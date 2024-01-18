@@ -1,0 +1,97 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+.logo {
+    width: 100px;
+}
+.nav-items {
+    padding: 0px 20px;
+}
+.nav-items > ul {
+    display: flex;
+    font-size: 18px;
+}
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.body-container {
+    padding: 20px;
+}
+.search {
+    padding: 10px;
+}
+.restro-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.restro-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 5px;
+    margin: 10px;
+    width: 180px;
+}
+.restro-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+  .restro-logo {
+      padding: 5px;
+      width: 170px;
+      height: 120px;
+  }
+  .filter {
+      padding: 10px;
+  }
+  
+  .filter-btn {
+    cursor: pointer;
+    padding: 10px;
+    background: orange;
+    border-radius: 10px;
+    border: 2px solid orange;
+  }
+
+  .filter-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(190, 151, 105, 0.2);
+  }
+
+  .shimmer-container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .shimmer-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 5px;
+    margin: 10px;
+    width: 180px;
+    height: 300px;
+    background-color: rgb(240, 240, 240);
+  }
+  .login {
+      padding: 0 10px;
+      cursor: pointer;
+  }
+  .filter {
+      display: flex;
+  }
+#myForm {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    padding: 30px;
+}
+
+#myForm input {
+    margin-bottom: 30px;
+    padding: 5px;
+}
+button {
+    color: black;
+}
